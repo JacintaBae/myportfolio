@@ -235,9 +235,7 @@ footer .logo img {
     align-items: center;
     font-size: 3rem;
   }
-  .our{
-    font-size:20px;
-  }
+ 
   nav {
     display: flex;
     justify-content: center;
@@ -324,7 +322,7 @@ footer .logo img {
     text-align: center;
   }
   .our {
-    font-size: 1px;
+    font-size: 20px;
     text-align: center;
   }
   .flex-items {
