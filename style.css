@@ -252,7 +252,8 @@ footer .logo img {
     color: rgb(14, 32, 62);
     transition: background-color 1.5 ease-in-out, color 1.5 ease-in-out;
   }
-
+  .home img{
+     margin-top:10px;
   .home {
     display: flex;
     justify-content: center;
