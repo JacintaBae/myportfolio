@@ -235,6 +235,8 @@ footer .logo img {
     align-items: center;
     font-size: 3rem;
   }
+  .our{
+    font-size:1rem;
   nav {
     display: flex;
     justify-content: center;
@@ -375,7 +377,7 @@ footer .logo img {
     flex-direction: column;
   }
   .our {
-    font-size: 4rem;
+    font-size: 1rem;
     text-align: center;
   }
 
