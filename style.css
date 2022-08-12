@@ -254,15 +254,15 @@ footer .logo img {
   padding: 10px;
   margin-top: 20px;
   font-weight: bold;
-  border: none;
-  background-color: #7fffd4;
+  border:1px solid #7fffd4;
+  background-color:  rgb(14, 32, 62);
   width: 130px;
-  color: rgb(14, 32, 62);
+  color:#7fffd4;
   border-radius: 10px;
 }
 .services button:hover {
-  background-color: rgb(14, 32, 62);
-  color: #7fffd4;
+  background-color: #7fffd4;
+  color: rgb(14, 32, 62);
   box-shadow: 0px 0px 5px #7fffd4;
 }
 
@@ -293,7 +293,7 @@ footer .logo img {
   width: 250px;
 }
 .services .items .icon {
-  background-color: #7fffd4;
+  
   border-radius: 2px;
 }
 /*media query starts here*/
