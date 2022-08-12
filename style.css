@@ -228,6 +228,75 @@ footer .logo img {
 #welcome img {
   width: 150px;
 }
+
+
+.services .items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  font-size: 18px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 20px;
+  border: 1px solid white;
+  line-height: 20px;
+}
+.services .items:hover {
+  box-shadow: 0px 0px 5px #7fffd4;
+}
+.our {
+  font-size: 4rem;
+  color: white;
+  font-family: "Epilogue", sans-serif;
+}
+.services button {
+  padding: 10px;
+  margin-top: 20px;
+  font-weight: bold;
+  border: none;
+  background-color: #7fffd4;
+  width: 130px;
+  color: rgb(14, 32, 62);
+  border-radius: 10px;
+}
+.services button:hover {
+  background-color: rgb(14, 32, 62);
+  color: #7fffd4;
+  box-shadow: 0px 0px 5px #7fffd4;
+}
+
+.services .web {
+  font-weight: bold;
+  color: #7fffd4;
+}
+.services p {
+  color: white;
+  font-weight: lighter;
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.flex-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-items div {
+  width: 250px;
+}
+.services .items .icon {
+  background-color: #7fffd4;
+  border-radius: 2px;
+}
 @media only screen and (max-width: 600px) {
   .welcome {
     display: flex;
@@ -322,7 +391,7 @@ footer .logo img {
     text-align: center;
   }
   .our {
-    font-size: 20px;
+    font-size: 1rem;
     text-align: center;
   }
   .flex-items {
