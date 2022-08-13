@@ -293,7 +293,7 @@ footer .logo img {
   color: rgb(14, 32, 62);
   border: #7fffd4;
 }
-.buttononin input placeholder{
+::placeholder{
     color: rgb(14, 32, 62)
 }
 
