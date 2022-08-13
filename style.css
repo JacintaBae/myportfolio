@@ -202,8 +202,8 @@ footer .logo img {
   margin-bottom: 50px;
   color: white;
 }
-.section1 .about {
-  font-size: 4rem;
+.section1  .flexible .about {
+  font-size: 3rem;
   color: white;
   font-family: "Epilogue", sans-serif;
   font-weight: bold;
@@ -261,8 +261,8 @@ footer .logo img {
   border-radius: 10px;
 }
 .services button:hover {
-  background-color: #7fffd4;
-  color: rgb(14, 32, 62);
+  background-color:#7fffd4;
+  color:  rgb(14, 32, 62);
   box-shadow: 0px 0px 5px #7fffd4;
 }
 
@@ -292,9 +292,11 @@ footer .logo img {
 .flex-items div {
   width: 250px;
 }
-.services .items .icon {
-  
-  border-radius: 2px;
+.services .items i {
+  border-radius: 5px;
+  width: 30px;
+  text-align: center;
+  color: #7fffd4;
 }
 /*media query starts here*/
 @media only screen and (max-width: 600px) {
@@ -364,8 +366,8 @@ footer .logo img {
     align-items: center;
     flex-direction: column;
   }
-  .section1 .about {
-    font-size: 2rem;
+  .section1 .flexible .about {
+    font-size: 1rem;
     text-align: center;
   }
   #welcome img {
@@ -391,7 +393,7 @@ footer .logo img {
     text-align: center;
   }
  .our {
-    font-size: 2px;
+    font-size: 20px;
     text-align: center;
   }
   .flex-items {
@@ -423,6 +425,7 @@ footer .logo img {
     font-weight: lighter;
     font-size: 12px;
   }
+  
 }
 /*media query for second max-width*/
 
@@ -491,5 +494,4 @@ footer .logo img {
     width: 110px;
   }
 }
-}
-}
+
