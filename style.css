@@ -293,6 +293,10 @@ footer .logo img {
   color: rgb(14, 32, 62);
   border: #7fffd4;
 }
+.buttononin input placeholder{
+    color: rgb(14, 32, 62)
+}
+
 .buttononin button {
   position: absolute;
   top: 5px;
