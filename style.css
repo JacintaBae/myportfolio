@@ -111,10 +111,17 @@ nav p a {
 /* for content in the home page*/
 .first {
   display: flex;
-  justify-content: flex-start;
-  align-items: space-between;
+  justify-content: center;
+  align-items: space-evenly;
   flex-direction:column;
+  margin: 20px;
  
+}
+.myname {
+  
+  color: white;
+  font-family: "Epilogue", sans-serif;
+  text-align:center;
 }
 
 .home img {
@@ -148,11 +155,7 @@ nav p a {
   font-weight: bold;
   transition: background-color 1.5 ease-in-out, color 1.5 ease-in-out;
 }
-.section1 #button:hover {
-  background-color: rgb(14, 32, 62);
-  color: #7fffd4;
-  box-shadow: 0px 0px 5px #7fffd4;
-}
+
 
 .home .dev {
   font-weight:lighter;
