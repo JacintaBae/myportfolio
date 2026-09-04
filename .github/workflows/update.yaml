@@ -1,4 +1,3 @@
-name: Update
 on:
   push:
     branches:
@@ -8,19 +7,38 @@ on:
       - main
 
 jobs:
-  update:
+  check_webfiles:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
+      - name: Check webfiles
+        run: ls -la
 
-      - name: Install dependencies
-        run: npm install
+  check_html_files:
+    needs: check_webfiles
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - name: Run update script
-        run: npm run update      
+      - name: Check index.html
+        run: test -f index.html
+
+  check_css_files:
+    needs: check_html_files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Check CSS files
+        run: test -f style.css
+
+  website_check_successful:
+    needs: check_css_files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Website check successful
+        run: echo "Website check successful"
