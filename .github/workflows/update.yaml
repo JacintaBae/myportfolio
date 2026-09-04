@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Check index.html
-        run: test -f index.html
+        run: test -f about.html
 
   check_css_files:
     needs: check_html_files
